@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Frontend Test</title>
+    <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<div class="container main-container">
+    <div class="row justify-center">
+        <div class="col col-12">
+            <button class="categories-button">Alle Kategorien</button>
+        </div>
+    </div>
+</div>
+
+<div class="overlay">
+    <div class="container">
+        <div class="overlay-content">
+            <div class="row justify-center is-relative">
+                <div class="col col-10 col-sm-12 overlay-title">Alle Kategorien</div>
+                <button class="close-overlay">&times;</button>
+            </div>
+            <div class="row justify-center">
+                <div class="col col-4 col-md-5 col-sm-12 categories-grid">
+                    <div class="categories">
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="1">
+                                Karrierewege
+                            </div>
+                        </div>
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="2">
+                                Promotion
+                            </div>
+                        </div>
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="3">
+                                Habilitation
+                            </div>
+                        </div>
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="4">
+                                Juniorprofessur
+                            </div>
+                        </div>
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="5">
+                                Berufungs-<br>
+                                verfahren
+                            </div>
+                        </div>
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="6">
+                                Arbeitsplatz
+                            </div>
+                        </div>
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="7">
+                                Familie, Partnerschaft, Alltag
+                            </div>
+                        </div>
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="8">
+                                Mobilität
+                            </div>
+                        </div>
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="9">
+                                Blick aus dem Ausland
+                            </div>
+                        </div>
+                        <div class="category-wrap">
+                            <div class="category" data-category-id="10">
+                                Allgemein
+                            </div>
+                        </div>
+                    </div>
+                    <form class="categories-form">
+                        <select class="category-dropdown" id="categoryDropdown">
+                            <option value="" disabled selected>Bitte wählen Sie eine Kategorie</option>
+                            <option value="1">Karrierewege</option>
+                            <option value="2">Promotion</option>
+                            <option value="3">Habilitation</option>
+                            <option value="4">Juniorprofessur</option>
+                            <option value="5">Berufungsverfahren</option>
+                            <option value="6">Arbeitsplatz</option>
+                            <option value="7">Familie, Partnerschaft, Alltag</option>
+                            <option value="8">Mobilität</option>
+                            <option value="9">Blick aus dem Ausland</option>
+                            <option value="10">Allgemein</option>
+                        </select>
+                    </form>
+                </div>
+
+                <div class="col col-6 col-md-5 col-sm-12 overlay-description">
+                    <h3 class="category-title">Bitte wählen Sie eine Kategorie oder eine Textsorte aus.</h3>
+                    <p class="category-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
